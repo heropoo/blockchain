@@ -1,0 +1,15 @@
+{
+    "name": "heropoo/blockchain",
+    "description": "php blockchain",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "heropoo",
+            "email": "aiyouyou1000@163.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.1"
+    }
+}
