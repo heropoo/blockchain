@@ -1,5 +1,5 @@
 # blockchain
 Learning blockchain
 
-require `php-version >= 7.1`
+require `php >= 7.1`
 
