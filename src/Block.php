@@ -6,7 +6,7 @@
  * Time: 14:16
  */
 
-class Block
+class Block implements JsonSerializable
 {
     protected $index;
     protected $timestamp;
@@ -74,6 +74,48 @@ class Block
     public static function next(Block $previous, string $data): Block
     {
         return new static($previous->index + 1, $data, $previous->hash);
+    }
+
+    public function getIndex(): int
+    {
+        return $this->index;
+    }
+
+    public function getTimestamp(): float
+    {
+        return $this->timestamp;
+    }
+
+    public function getData(): string
+    {
+        return $this->data;
+    }
+
+    public function getPreviousHash(): string
+    {
+        return $this->previous_hash;
+    }
+
+    public function getNonce(): int
+    {
+        return $this->nonce;
+    }
+
+    public function getHash(): string
+    {
+        return $this->hash;
+    }
+
+    public function jsonSerialize(): array
+    {
+        return [
+            'index' => $this->index,
+            'timestamp' => $this->timestamp,
+            'data' => $this->data,
+            'previous_hash' => $this->previous_hash,
+            'hash' => $this->hash,
+            'nonce' => $this->nonce
+        ];
     }
 
 }
