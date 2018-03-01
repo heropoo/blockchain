@@ -1,7 +1,7 @@
 # blockchain
 Learning blockchain
 
-require `php-version >= 7.0`
+require `php >= 7.0`
 
 参考： 
 * https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
