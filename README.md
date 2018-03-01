@@ -16,6 +16,7 @@ php blockchain_with_proof_of_work.php
 参考： 
 * https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
 * https://medium.com/crypto-currently/lets-make-the-tiniest-blockchain-bigger-ac360a328f4d
+* https://en.bitcoin.it/wiki/Proof_of_work
 
 ## 1.让我们创建一个最小的区块链
 
