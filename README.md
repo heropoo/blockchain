@@ -3,6 +3,16 @@
 
 需要 `php >= 7.0`
 
+运行：
+```
+php blockchain.php
+```
+
+运行`proof of work`的版本：
+```
+php blockchain_with_proof_of_work.php
+```
+
 参考： 
 * https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
 * https://medium.com/crypto-currently/lets-make-the-tiniest-blockchain-bigger-ac360a328f4d
