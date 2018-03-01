@@ -1,6 +1,6 @@
 {
     "name": "heropoo/blockchain",
-    "description": "php blockchain",
+    "description": "blockchain",
     "license": "MIT",
     "type": "project",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">= 7.1"
+        "php": ">= 7.0"
     },
     "autoload": {
         "psr-4": {
