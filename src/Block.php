@@ -30,7 +30,7 @@ class Block implements JsonSerializable
      * @param string $difficulty
      * @return array
      */
-    public function computeHashWithProofOfWork(string $difficulty = "00"): array
+    public function computeHashWithProofOfWork(string $difficulty = "000"): array
     {
         $nonce = 0;
         while (true) {

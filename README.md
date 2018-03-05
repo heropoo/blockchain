@@ -16,7 +16,9 @@ php blockchain_with_proof_of_work.php
 参考： 
 * https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
 * https://medium.com/crypto-currently/lets-make-the-tiniest-blockchain-bigger-ac360a328f4d
-* https://en.bitcoin.it/wiki/Proof_of_work
+* [工作量证明（Proof of Work，PoW）机制](https://en.bitcoin.it/wiki/Proof_of_work)
+* [股权证明（Proof of Stake，PoS）机制](https://en.wikipedia.org/wiki/Proof-of-stake)
+* [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/)
 
 ## 1.让我们创建一个最小的区块链
 
